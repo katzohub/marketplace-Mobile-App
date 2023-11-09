@@ -1,0 +1,25 @@
+.container-home {
+  width: 100%;
+  padding-top: 70px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.heading-category {
+  font-size: 2rem;
+  color: var(--main-postprimary-two-color);
+}
+
+.category {
+  width: 90%;
+  max-width: 600px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.category a {
+  color: var(--main-text-color);
+}

@@ -1,0 +1,146 @@
+.info-product-container {
+  padding-top: 50px;
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+.glide__slides {
+  height: 250px;
+}
+.glide__slide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.glide__slide img {
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  object-fit: cover;
+}
+.controls {
+  position: absolute;
+  z-index: 999;
+  top: 40%;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.controls button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-neutral-two-color);
+  color: var(--main-text-color);
+  border: 1px solid var(--main-text-color);
+  opacity: 0.8;
+  cursor: pointer;
+}
+.controls button:hover {
+  opacity: 1;
+}
+.linie-heading {
+  margin-top: 10px;
+  padding: 0 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--main-postprimary-two-color);
+  text-transform: uppercase;
+}
+.favorite-heading svg:hover {
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+.container-info-two {
+  margin-top: 10px;
+  padding: 0 5px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-info-two h5 {
+  font-size: 2rem;
+}
+.container-info-two p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.price-info {
+  font-size: 2rem;
+}
+.info {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding: 0 5px;
+}
+.box-down {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-down svg {
+  cursor: pointer;
+}
+.info h6 {
+  font-size: 1.7rem;
+}
+.info p {
+  font-size: 1rem;
+}
+.user-info {
+  margin-top: 20px;
+}
+.user-info p {
+  margin-top: 7px;
+}
+.user-info p span {
+  font-size: 1.3rem;
+  margin-right: 7px;
+  color: var(--main-postprimary-two-color);
+}
+.container-contact {
+  margin-top: 10px;
+  width: 100%;
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-contact button {
+  width: 40%;
+  height: 30px;
+  border-radius: 7.5px;
+  background: transparent;
+  border: 2px solid var(--main-postprimary-two-color);
+  transition: background 0.3s ease;
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+.container-contact button:hover {
+  background: var(--main-postprimary-two-color);
+}
+
+.mini-wrap-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-info {
+  width: 90%;
+  max-width: 600px;
+}
+
+@media (min-width: 600px) {
+  .info-product-container {
+    padding-top: 120px;
+  }
+}

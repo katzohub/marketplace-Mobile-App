@@ -1,0 +1,16 @@
+.footer-desktop {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid var(--main-neutral-color);
+  background-color: #002b55;
+  z-index: 9999;
+}
+.footer-desktop h6 {
+  font-weight: 300;
+  font-size: 1.2rem;
+}

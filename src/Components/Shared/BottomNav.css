@@ -1,0 +1,28 @@
+.container-bootom {
+  width: 100%;
+  height: 50px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid var(--main-neutral-color);
+  background-color: #002b55;
+  z-index: 999;
+}
+.mini-bottom-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.mini-bottom-wrap a {
+  color: #fff;
+}
+.mini-bottom-wrap a:hover {
+  color: var(--main-postprimary-two-color);
+}
+.active {
+  color: var(--main-postprimary-two-color) !important;
+}

@@ -1,0 +1,28 @@
+.header-container {
+  width: 100%;
+  height: 50px;
+  padding: 5px 10px 0;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  border-bottom: 2px solid var(--main-neutral-color);
+  background-color: #002b55;
+  z-index: 9999;
+}
+.header-img {
+  width: 50px;
+  cursor: pointer;
+  position: relative;
+  top: -3px;
+}
+.user svg {
+  font-size: 2rem;
+  color: var(--main-text-color);
+  cursor: pointer;
+}
+
+.arrow-back {
+  font-size: 2rem;
+  cursor: pointer;
+}
