@@ -1,4 +1,7 @@
-# React + TypeScript + Vite
+# New Project React + TypeScript + Vite + Firebase + React Router + GlideJS
+
+![fotka pre moj projekt](photoAppMarketPlace.png) 
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
